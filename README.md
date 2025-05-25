@@ -1,4 +1,14 @@
 # Assistant_IA_RH_mistral
+Assistant IA RH local — basé sur le Code du travail 2025 🇫🇷
+
+Ce projet est un assistant IA local, conçu pour répondre à des questions liées au Code du travail français, sans dépendance à des services externes (fonctionne entièrement en local).  
+Il s'appuie sur un moteur de recherche sémantique avec une base vectorielle Chroma, un modèle LLaMA (Mistral 7B) en .gguf exécuté via llama.cpp, et une interface utilisateur simple grâce à Gradio.
+
+Fonctionnalités principales :
+- Indexation automatique du Code du travail 2025 (PDF) en vecteurs.
+- Recherche intelligente de passages pertinents à l'aide de langchain et Chroma.
+- Génération de réponses en langage naturel via un modèle local Mistral.
+- Interface web minimaliste pour poser des questions.
 
 ## 📁 Fichiers volumineux non inclus
 
