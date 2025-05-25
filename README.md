@@ -10,6 +10,8 @@ Le fichier `chroma_code_travail/chroma.sqlite3` est généré automatiquement. P
 
 ```bash
 python index_articles.py
+```
+
 
 ## Liste des dépendances
 pip install langchain langchain-community langchain-huggingface llama-cpp-python gradio PyMuPDF
