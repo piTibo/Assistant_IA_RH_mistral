@@ -55,13 +55,15 @@ def generate_response(question):
         return f"Erreur : {str(e)}"
 
 
-iface = gr.Interface(
-    fn=generate_response,
-    inputs=gr.Textbox(lines=3, placeholder="Pose ta question..."),
-    outputs="text",
-    title="Assistant IA RH - Code du travail 2025",
-    description="Pose ta question à partir du Code du travail (modèle local, vector DB avec RAG)"
-)
+def main():
+    iface = gr.Interface(
+        fn=generate_response,
+        inputs=gr.Textbox(lines=3, placeholder="Pose ta question..."),
+        outputs="text",
+        title="Assistant IA RH - Code du travail 2025",
+        description="Pose ta question à partir du Code du travail (modèle local, vector DB avec RAG)"
+    )
+    iface.launch()
 
 if __name__ == "__main__":
-    iface.launch()
+    main()
