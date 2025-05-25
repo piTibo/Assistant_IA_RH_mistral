@@ -1,0 +1,16 @@
+# Base de données Chroma (trop volumineuse)
+chroma_code_travail/chroma.sqlite3
+
+# Modèles d'IA LLaMA (trop volumineux)
+model/mistral-7b-instruct-v0.1.Q8_0.gguf
+model/mistral-7b-instruct-v0.1.Q4_K_M.gguf
+
+# Fichiers temporaires/IDE
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+*.swp
+.DS_Store
