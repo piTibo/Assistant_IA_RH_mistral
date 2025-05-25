@@ -11,6 +11,15 @@ Le fichier `chroma_code_travail/chroma.sqlite3` est généré automatiquement. P
 ```bash
 python index_articles.py
 ```
+### 🔹 Modèle de langage LLaMA (Mistral)
+
+Le fichier model/mistral-7b-instruct-v0.1.Q4_K_M.gguf peut être téléchargé depuis Hugging Face :
+
+➡️ Téléchargement sur HuggingFace
+
+Modèle recommandé : mistral-7b-instruct-v0.1.Q4_K_M.gguf
+
+Téléchargez-le et placez-le dans le dossier model/.
 
 
 ## Liste des dépendances
