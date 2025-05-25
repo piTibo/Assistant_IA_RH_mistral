@@ -14,4 +14,6 @@ python index_articles.py
 
 
 ## Liste des dépendances
+```bash
 pip install langchain langchain-community langchain-huggingface llama-cpp-python gradio PyMuPDF
+```
